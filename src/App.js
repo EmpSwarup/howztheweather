@@ -6,7 +6,7 @@ import { getFormattedWeatherData } from "./weatherService";
 import {Helmet} from "react-helmet";
 
 function App() {
-  const [city, setCity] = useState("Paris");
+  const [city, setCity] = useState("Kathmandu");
   const [weather, setWeather] = useState(null);
   const [units, setUnits] = useState("metric");
   const [bg, setBg] = useState(hotBg);
